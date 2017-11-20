@@ -263,3 +263,11 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+
+.collection .collection-item.avatar .title {
+    font-size: 20px;
+}
+
+.collection .collection-item.avatar p, .collection .collection-item.avatar .secondary-content {
+    font-size: 17px;
+}
