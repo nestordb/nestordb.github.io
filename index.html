@@ -111,8 +111,22 @@
     <div class="container">
         <h3 class="header text_b">Research</h3>
         <div class="row">
+        <p style="padding-left: 1em">We have developed the current state-of-the-art data series indexes, iSAX2+ (bulk loading),
+        DPiSAX (distributed), and ADS+ (adaptive), the only data series query workload benchmark, 
+        as well as DSStat, a toolset for data series preprocessing and visualization.</p>
+        <p style="padding-left: 1em">We have applied our techniques on streaming and uncertain data series, and have worked
+        with data from diverse domains, such as home networks, road tunnels, and manufacturing.</p>
+        
         <ul class="collection with-header">
-        <li class="collection-header"><h4>Indexing</h4></li>  
+        <li class="collection-header">
+            <h4>Indexing</h4>
+            <p>For big data exploration, it is prohibitive
+                    to rely to full sequential scans for every single query, and
+                    therefore, indexing is required. The target of our indexing techniques
+                    is to make query processing efficient enough, such that the analysts
+                    can repeatedly fire several exploratory queries with quick response
+                    times and low initialization costs.</p>
+        </li>  
         <li class="collection-item avatar">
         <img src="img/pdf.jpg" alt="" class="circle">
         <span class="title">DPiSAX: Massively Distributed Partitioned iSAX</span>
@@ -164,7 +178,13 @@
         </ul>
         
         <ul class="collection with-header">
-        <li class="collection-header"><h4>Management</h4></li> 
+        <li class="collection-header">
+            <h4>Management</h4>
+            <p>There is an increasingly pressing need, by several applications in
+                diverse domains, for developing techniques able to index and mine very large
+                collections of sequences, or data series. Examples of such applications come
+                from biology, astronomy, entomology, the web, and other domains.</p>
+        </li> 
         
         
         <li class="collection-item avatar">
@@ -188,7 +208,14 @@
         </ul>
 
         <ul class="collection with-header">
-        <li class="collection-header"><h4>Mining</h4></li>                        
+        <li class="collection-header">
+            <h4>Mining</h4>
+            <p>
+            Examples of analysis operations are queries by content (range and similarity
+            queries, nearest neighbors), clustering, classification,
+            outlier patterns, frequent sub-sequences, and others. 
+            </p>
+        </li>                        
         <li class="collection-item avatar">
         <img src="img/pdf.jpg" alt="" class="circle">
         <span class="title">Matrix Profile X: VALMOD - Scalable Discovery of Variable-Length <br>Motifs in Data Series.</span>
@@ -248,7 +275,13 @@
         </ul>
 
         <ul class="collection with-header">
-        <li class="collection-header"><h4>Exploration</h4></li>                        
+        <li class="collection-header">
+            <h4>Exploration</h4>
+            <p>Using our techniques, users can explore large datasets
+                    and find patterns of interest, using nearest neighbor search.
+                    They can draw queries (data series) using a mouse, or touch
+                    screen, or they can select from their own datasets.</p>
+        </li>                        
         <li class="collection-item avatar">
         <img src="img/pdf.jpg" alt="" class="circle">
         <span class="title">RINSE: Interactive Data Series [a.k.a. time series] Exploration with ADS+</span>
@@ -258,7 +291,16 @@
         </ul>
 
         <ul class="collection with-header">
-        <li class="collection-header"><h4>Uncertainty</h4></li>                        
+        <li class="collection-header">
+            <h4>Uncertainty</h4>
+            <p>
+                    Modeling tuples with value and existential uncertainty has several advantages. From
+                    an engineering perspective, a programmer can feed uncertain data directly into the
+                    system, without explicitly preprocessing data and forcing data approximations. From an
+                    application requirements perspective, maintaining possible values allows the application
+                    to provide results with confidence intervals.
+            </p>
+        </li>                        
         <li class="collection-item avatar">
         <img src="img/pdf.jpg" alt="" class="circle">
         <span class="title">Sliding Windows over Uncertain Data Streams</span>

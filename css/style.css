@@ -264,10 +264,20 @@ footer.page-footer {
     margin-top: 0px !important;
 }
 
-.collection .collection-item.avatar .title {
+/* .collection .collection-item.avatar .title {
     font-size: 20px;
 }
 
 .collection .collection-item.avatar p, .collection .collection-item.avatar .secondary-content {
     font-size: 17px;
+} */
+
+.collection.with-header .collection-header {
+    background-color: #292933;
+    color: #fff;
+    font-size: 90%;
+}
+
+.collection.with-header .collection-header h4 {
+    font-size: 150%;
 }
