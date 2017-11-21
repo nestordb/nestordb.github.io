@@ -306,3 +306,11 @@ footer.page-footer {
 #index-banner {
     margin-top: -6em;
 }
+
+.card-img {
+    margin-right:1em; 
+    margin-bottom: 1em; 
+    background-color: #fff; 
+    border-radius:10px;
+    height: 60px;
+}
