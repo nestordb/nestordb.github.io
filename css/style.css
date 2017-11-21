@@ -60,11 +60,6 @@
     display: block;
 }
 
-.card-content {
-    height: 20em;
-    text-justify: auto;
-}
-
 .card-content a {color: #3D7099;}
 
 .card-content a:hover {color: #3D7099;}
