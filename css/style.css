@@ -59,6 +59,12 @@
     font-size: 7rem;
     display: block;
 }
+
+.card-content {
+    height: 15em;
+    text-justify: auto;
+}
+
 .card-content a {color: #3D7099;}
 
 .card-content a:hover {color: #3D7099;}
