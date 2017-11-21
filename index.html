@@ -31,17 +31,30 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
-                    <li><a href="#">Software</a></li>
+                    <li><a href="#modalsoftware" class="modal-trigger">Software</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
-                    <li><a href="#">Software</a></li>
+                    <li><a href="#modalsoftware" class="modal-trigger">Software</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </div>
     </nav>
+</div>
+
+<!-- Modal Software -->
+<div id="modalsoftware" class="modal">
+<div class="modal-content">
+    <h4>Software</h4>
+    <p>Our initial software release will be available soon. 
+       You can sign up to our <a href="#">newsletter</a> to be the first to know when it becomes available.
+    </p>
+</div>
+<div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+</div>
 </div>
 
 <!--Hero-->
@@ -58,7 +71,7 @@
             </span>
             <span>Data Series</span>
             <div style="margin-top: 0.5em">
-                <a class="waves-effect waves-light btn btn-large blue lighten-5" style="font-size:20%; color: #000; text-transform:none;" href="#software">Download</a>
+                <a class="waves-effect waves-light btn btn-large blue lighten-5 modal-trigger" style="font-size:20%; color: #000; text-transform:none;" href="#modalsoftware">Download</a>
                 <a class="waves-effect waves-light btn btn-large blue lighten-5" style="font-size:20%; color: #000; text-transform:none;" href="#about">Learn More</a>
             </div>
             <!-- <div id="top-logos">
@@ -437,6 +450,11 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
-
+    <script>
+    $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that   wants to be triggered
+    $('.modal-trigger').leanModal();
+    });
+    </script>
     </body>
 </html>
