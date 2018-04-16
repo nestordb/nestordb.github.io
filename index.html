@@ -22,15 +22,14 @@
 
 </div>
 
-<!--Navigation-->
+<!--Navigation
  <div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-<!--                <a href="#" id="logo-container" class="brand-logo">
+                <a href="#" id="logo-container" class="brand-logo">
                     <img src="img/logo-nestor-inv-orange.png" style="height:60px; margin-top:-0px">
                 </a>
--->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#about">Home</a></li>
                     <li><a href="#team">Team</a></li>
@@ -48,6 +47,7 @@
         </div>
     </nav>
 </div>
+-->
 
 <!-- Modal Software -->
 <div id="modalsoftware" class="modal">
@@ -209,12 +209,51 @@
         <h3 class="header text_b">Research</h3>
         <div class="row">
         <p style="padding-left: 1em">We have developed the current state-of-the-art data series indexes, iSAX2+ (bulk loading),
-        DPiSAX (distributed), and ADS+ (adaptive), the only data series query workload benchmark,
+        DPiSAX (distributed), ADS+ (adaptive), Coconut (update friendly), and ULISEE (variable-length), the first data series query workload benchmark,
         as well as DSStat, a toolset for data series preprocessing and visualization.</p>
         <p style="padding-left: 1em">We have applied our techniques on streaming and uncertain data series, and have worked
         with data from diverse domains, such as home networks, road tunnels, and manufacturing.</p>
 
         <ul class="collection with-header">
+        <li class="collection-header">
+            <h4>Management</h4>
+            <p>There is an increasingly pressing need, by several applications in
+                diverse domains, for developing techniques able to index and mine very large
+                collections of sequences, or data series. Examples of such applications come
+                from biology, astronomy, entomology, the web, and other domains.</p>
+        </li>
+
+        <li class="collection-item avatar">
+        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/icde18-sms.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+        <span class="title">Data Series Management: Fulfilling the Need for Big Sequence Analytics.</span>
+        <p>Kostas Zoumpatianos, Themis Palpanas.</p>
+        <span class="secondary-content">ICDE 2018</span>
+        </li>
+        <li class="collection-item avatar">
+        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/wpdm17.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+        <span class="title">The Parallel and Distributed Future of Data Series Mining. [Invited Paper]</span>
+        <p>Themis Palpanas.</p>
+        <span class="secondary-content">HPCS 2017</span>
+        </li>
+        <li class="collection-item avatar">
+        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/icde16-keynotePhd.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+        <span class="title">Data Series Management: The Next Challenge</span>
+        <p>Themis Palpanas.</p>
+        <span class="secondary-content">ICDE 2016</span>
+        </li>
+        <li class="collection-item avatar">
+        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/sofsem16-bisem.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+        <span class="title">Big Sequence Management: A Glimpse on the Past, the Present, and <br>the Future. [Invited Paper]</span>
+        <p>Themis Palpanas.</p>
+        <span class="secondary-content">LNCS 2016</span>
+        </li>
+        <li class="collection-item avatar">
+        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/sigrec15-bisemvision.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+        <span class="title"> Data Series Management: The Road to Big Sequence Analytics.</span>
+        <p>Themis Palpanas.</p>
+        <span class="secondary-content">SIGMOD Record 2015</span>
+        </li>
+<br>
         <li class="collection-header">
             <h4>Indexing</h4>
             <p>For big data exploration, it is prohibitive
@@ -271,45 +310,6 @@
         <span class="title">Indexing Large Human-Motion Databases</span>
         <p>Eamonn Keogh, Themis Palpanas, Victor B. Zordan, Dimitrios Gunopulos, Marc Cardle.</p>
         <span class="secondary-content">VLDB 2004</span>
-        </li>
-<br>
-        <li class="collection-header">
-            <h4>Management</h4>
-            <p>There is an increasingly pressing need, by several applications in
-                diverse domains, for developing techniques able to index and mine very large
-                collections of sequences, or data series. Examples of such applications come
-                from biology, astronomy, entomology, the web, and other domains.</p>
-        </li>
-
-        <li class="collection-item avatar">
-        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/icde18-sms.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-        <span class="title">Data Series Management: Fulfilling the Need for Big Sequence Analytics.</span>
-        <p>Kostas Zoumpatianos, Themis Palpanas.</p>
-        <span class="secondary-content">ICDE 2018</span>
-        </li>
-        <li class="collection-item avatar">
-        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/wpdm17.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-        <span class="title">The Parallel and Distributed Future of Data Series Mining. [Invited Paper]</span>
-        <p>Themis Palpanas.</p>
-        <span class="secondary-content">HPCS 2017</span>
-        </li>
-        <li class="collection-item avatar">
-        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/icde16-keynotePhd.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-        <span class="title">Data Series Management: The Next Challenge</span>
-        <p>Themis Palpanas.</p>
-        <span class="secondary-content">ICDE 2016</span>
-        </li>
-        <li class="collection-item avatar">
-        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/sofsem16-bisem.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-        <span class="title">Big Sequence Management: A Glimpse on the Past, the Present, and <br>the Future. [Invited Paper]</span>
-        <p>Themis Palpanas.</p>
-        <span class="secondary-content">LNCS 2016</span>
-        </li>
-        <li class="collection-item avatar">
-        <a href="http://www.mi.parisdescartes.fr/~themisp/publications/sigrec15-bisemvision.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-        <span class="title"> Data Series Management: The Road to Big Sequence Analytics.</span>
-        <p>Themis Palpanas.</p>
-        <span class="secondary-content">SIGMOD Record 2015</span>
         </li>
 <br>
         <li class="collection-header">
