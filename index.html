@@ -210,11 +210,56 @@
     <div class="container">
         <h3 class="header text_b">Research</h3>
         <div class="row">
-        <p style="padding-left: 1em">We have developed the current state-of-the-art data series indexes, iSAX2+ (bulk loading),
-        DPiSAX (distributed), ADS+ (adaptive), Coconut (update friendly), and ULISSE (variable-length), the first data series query workload benchmark,
-        as well as DSStat, a toolset for data series preprocessing and visualization.</p>
-        <p style="padding-left: 1em">We have applied our techniques on streaming and uncertain data series, and have worked
-        with data from diverse domains, such as home networks, road tunnels, and manufacturing.</p>
+        <p style="padding-left: 1em">We have developed the current state-of-the-art data series indexes, iSAX2+ (bulk loading), ADS+ (adaptive), DPiSAX (distributed), ParIS+ (multi-core), SING (GPU), MESSI (in-memory), Coconut-LSM (streaming series), ULISSE (variable-length), and ProgSS (progressive query answering) the first data series query workload benchmark, as well as DSStat, a toolset for data series preprocessing and visualization.</p>
+        <p style="padding-left: 1em">We have applied our techniques on streaming and uncertain data series, and have worked with data from diverse domains, such as home networks, road tunnels, seismology, neuroscience, astrophysics, manufacturing, as well as from deep learning embeddings.</p>
+        <p style="padding-left: 1em">Extensive experimental evaluations demonstrate that our techniques are the state-of-the-art for exact search and approximate search with quality guarantees, and the only viable solution for disk-resident datasets for both data series and general high-dimensional vector datasets.</p>
+
+
+
+
+
+
+
+
+
+
+
+        <ul class="collection with-header">
+            <li class="collection-header">
+                <h4>Tutorials</h4>
+                <p>In our tutorials we describe the most prevalent similarity search methods developed in both the data series and the high-dimensional communities, and comment on their merits and drawbacks. We also present recent results from extensive experiemntal comparison studies, which demonstrate the superiority of the state-of-the-art data series methods.</p>
+            </li>
+            <li class="collection-item avatar">
+                <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/vldb2021-HighDSimilaritySearch-EchihabiZoumpatianosPalpanas-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+                <span class="title">New Trends in High-D Vector Similarity Search: AI-driven, Progressive, and Distributed.</span>
+                <p>Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas.</p>
+                <span class="secondary-content">VLDB 2021</span>    
+            </li>
+            <li class="collection-item avatar">
+                <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/icde2021-HighDSimilaritySearch-EchihabiZoumpatianosPalpanas-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+                <span class="title">High-Dimensional Similarity Search for Scalable Data Science.</span>
+                <p>Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas.</p>
+                <span class="secondary-content">ICDE 2021</span>    
+            </li>
+            <li class="collection-item avatar">
+                <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/edbt21-BigSequenceManagement-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+                <span class="title">Big Sequence Management: Scaling Up and Out.</span>
+                <p>Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas.</p>
+                <span class="secondary-content">EDBT 2021</span>    
+            </li>
+            <li class="collection-item avatar">
+                <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/ieeeBigData20-bigsequencemanagement-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+                <span class="title">Big Sequence Management: on Scalability.</span>
+                <p>Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas.</p>
+                <span class="secondary-content">IEEE BigData 2020</span>    
+            </li>
+            <li class="collection-item avatar">
+                <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/iscc20-bigsequencemanagement-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+                <span class="title">Big Sequence Management.</span>
+                <p>Karima Echihabi, Kostas Zoumpatianos, Themis Palpanas.</p>
+                <span class="secondary-content">ISCC 2020</span>    
+            </li>
+        <br>
 
 
 
@@ -238,11 +283,11 @@
             <a href="http://helios.mi.parisdescartes.fr/~themisp/publications/sigrec19-itisa.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
             <span class="title">Data Series Management (Dagstuhl Seminar 19282). </span>
             <p>Anthony Bagnall, Richard L. Cole, Themis Palpanas, Kostas Zoumpatianos.</p>
-            <span class="secondary-content">Dagstuhl Reports 2019.</span>    
+            <span class="secondary-content">Dagstuhl Reports 2019</span>    
         </li>
         <li class="collection-item avatar">
             <a href="http://helios.mi.parisdescartes.fr/~themisp/publications/sigrec19-itisa.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-            <span class="title">Report on the First and Second Interdisciplinary Time Series [a.k.a. data series, or sequences] Analysis Workshop (ITISA).</span>
+            <span class="title">Report on the First and Second Interdisciplinary Time Series Analysis Workshop (ITISA).</span>
             <p>Themis Palpanas and Volker Beckmann.</p>
             <span class="secondary-content">SIGMOD Record 2019</span>    
         </li>
@@ -316,7 +361,7 @@
         </li>
 
         <li class="collection-item avatar">
-            <a href="" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+            <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/vldbj21-messi.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
             <span class="title">Fast Data Series Indexing for In-Memory Data.</span>
             <p>Botao Peng, Panagiota Fatourou, Themis Palpanas.</p>
             <span class="secondary-content">VLDBJ 2021</span>
@@ -526,16 +571,23 @@
         </li>
         <li class="collection-item avatar">
             <a href="" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-            <span class="title">Electricity Demand Activation Extraction: From Known to Uknown Signatures, Using Similarity Search.</span>
-            <p>Pauline Laviron, Zueqi Dai, Berenice Huquet, Themis Palpanas.</p>
-            <span class="secondary-content">e-Energy 2021</span>
+            <span class="title">SAND: Streaming Subsequence Anomaly Detection.</span>
+            <p>Paul Boniol, John Paparrizos, Themis Palpanas, Michael J. Franklin.</p>
+            <span class="secondary-content">PVLDB 2021</span>
         </li>
 
         <li class="collection-item avatar">
             <a href="" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
-            <span class="title">SAND: Streaming Subsequence Anomaly Detection.</span>
+            <span class="title">SAND in Action: Subsequence Anomaly Detection for Streams.</span>
             <p>Paul Boniol, John Paparrizos, Themis Palpanas, Michael J. Franklin.</p>
             <span class="secondary-content">PVLDB 2021</span>
+        </li>
+
+        <li class="collection-item avatar">
+            <a href="https://helios.mi.parisdescartes.fr/~themisp/publications/eenergy21.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
+            <span class="title">Electricity Demand Activation Extraction: From Known to Uknown Signatures, Using Similarity Search.</span>
+            <p>Pauline Laviron, Zueqi Dai, Berenice Huquet, Themis Palpanas.</p>
+            <span class="secondary-content">e-Energy 2021</span>
         </li>
 
         <li class="collection-item avatar">
