@@ -22,8 +22,8 @@
 
 </div>
 
-<!--Navigation
- <div class="navbar-fixed">
+<!--Navigation: original from Kostas
+<div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
@@ -48,6 +48,64 @@
     </nav>
 </div>
 -->
+
+<!--Navigation: Themis
+<div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" id="logo-container" class="brand-logo">
+                    <img src="img/logo-nestor-inv-orange.png" style="height:60px; margin-top:-0px">
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">Home</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#research" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#research-Tutorials">Tutorials</a>
+                                <a class="dropdown-item" href="#research-Management">Management</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+-->
+
+<!-- menu with dropdown element 
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+</nav>
+-->
+  
 
 <!-- Modal Software -->
 <div id="modalsoftware" class="modal">
@@ -179,7 +237,7 @@
                     <span class="card-title">Modern Hardware Optimizations</span>
                     <p>
                         <img src="img/modern-hardware.png" align="left" class="card-img" style="padding: 6px">
-                        We aim to utilize all modern hardware optimization techniques such as SIMD, NUMA-aware multi-processing, GPUs and SSD optimizations.
+                        We utilize all modern hardware optimization techniques such as SIMD, NUMA-aware multi-processing, GPUs and SSD optimizations.
                     </p>
                     </div>
                 </div>
@@ -213,7 +271,7 @@
         <p style="padding-left: 1em">We have developed the current state-of-the-art data series indexes, iSAX2+ (bulk loading), ADS+ and Dumpy (adaptive), DPiSAX and Odyssey (distributed), ParIS+ and Hercules (multi-core), SING (GPU), MESSI and Elpis (in-memory), Coconut-LSM (streaming series), ULISSE (variable-length), and ProS (progressive query answering) the first data series query workload benchmark, as well as DSStat, a toolset for data series preprocessing and visualization.</p>
         <p style="padding-left: 1em">We have applied our techniques on streaming and uncertain data series, and have worked with data from diverse domains, such as home networks, road tunnels, seismology, neuroscience, astrophysics, manufacturing, as well as from deep learning embeddings.</p>
         <p style="padding-left: 1em">Extensive experimental evaluations demonstrate that our techniques are the state-of-the-art for exact search and approximate search with quality guarantees, and the only viable solution for disk-resident datasets for both data series and general high-dimensional vector datasets.</p>
-        <p style="padding-left: 1em">Moreover, we have developed unsupervised methods for subsequence anomaly detection: NormA and Series2Graph (offline), and SAND (online). These methods exhibit state-of-the-art performance across a variety of dataset characteristics and anomaly types, without the need to learn from domain knowledge, labeled data, or even datasets clean from anomalies.</p>
+        <p style="padding-left: 1em">Moreover, we have developed unsupervised methods for subsequence anomaly detection: NormA and Series2Graph (offline), and SAND (online). These methods exhibit state-of-the-art performance across a variety of dataset characteristics and anomaly types, without the need to learn from domain knowledge, labeled data, or datasets clean from anomalies.</p>
 
 
 
@@ -234,7 +292,7 @@
                 <a href="https://helios2.mi.parisdescartes.fr/~themisp/publications/edbt23-TimeSeriesAnomalyDetection-BoniolPaparrizosPalpanas-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
                 <span class="title">New Trends in Time Series Anomaly Detection.</span>
                 <p>Paul Boniol, John Paparrizos, Themis Palpanas.</p>
-                <span class="secondary-content">VLDB 2021</span>    
+                <span class="secondary-content">EDBT 2023</span>    
             </li>
             <li class="collection-item avatar">
                 <a href="https://helios2.mi.parisdescartes.fr/~themisp/publications/mdm2022-ScalableSequenceAnalytics-EchihabiPalpanas-summary.pdf" target="_blank"><img src="img/pdf.jpg" alt="" class="circle"></a>
